@@ -1,0 +1,22 @@
+Fairness
+--------
+
+### Payoff per type of fairness
+payoff_fairness_equal_payoff <- c(20, 20, 20, 20, 20, 20)
+payoff_fairness_equal_contribution <- c(0, 10, 20, 20, 30, 40)
+payoff_fairness_relative_endowmnets <- c(10, 15, 20, 20, 25, 30)
+
+diff_payoff_equal_payoff
+------------------------
+        20         30         40         40         50         60 
+-14.076923 -10.074074  -1.660377  -1.425926   3.740741  12.000000 
+
+diff_payoff_equal_contribution
+------------------------------
+         20          30          40          40          50          60 
+ 5.92307692 -0.07407407 -1.66037736 -1.42592593 -6.25925926 -8.00000000 
+
+diff_payoff_relative_endowment
+------------------------------
+       20        30        40        40        50        60 
+-4.076923 -5.074074 -1.660377 -1.425926 -1.259259  2.000000 
